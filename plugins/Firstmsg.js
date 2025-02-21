@@ -23,7 +23,7 @@ let handler = async (m, { conn }) => {
 }
 
 // تحديد الأوامر التي يجب أن يستجيب لها البوت
-handler.customPrefix = /^(hi|hello|سلام|سَلَام|slm|menu|ا|ª|A?$)/i
-handler.command = /^(hi|hello|سلام|سَلَام|slm|menu|ا|ª|A?$)/i
+handler.customPrefix = /^(hi|hello|سلام|سَلَام|slm|اوامر|ا|ª|A?$)/i
+handler.command = /^(hi|hello|سلام|سَلَام|slm|اوامر|ا|ª|A?$)/i
 
 export default handler
